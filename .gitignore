@@ -1,0 +1,12 @@
+**/.terraform/**/*
+**/.ssh/**/*
+!**/.ssh/.gitkeep
+.*.tfvars
+plan
+
+terraform.tfstate*
+
+.tf.makefile
+digitalocean/provider.tf
+digitalocean/.go-http-tunnel-keys/**/*
+
